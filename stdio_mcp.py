@@ -8,7 +8,7 @@ mcp = FastMCP("WeatherServer")
  
 # OpenWeather API 配置
 OPENWEATHER_API_BASE = "https://api.openweathermap.org/data/2.5/weather"
-API_KEY = "c940df0b49b283bf5fc13c9cf607c387"  # 请替换为你自己的 OpenWeather API Key
+API_KEY = ""  # 请替换为你自己的 OpenWeather API Key
 USER_AGENT = "weather-app/1.0"
  
 async def fetch_weather(city: str) -> dict[str, Any] | None:
